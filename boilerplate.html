@@ -16,6 +16,7 @@
   <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
   <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
   <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+  <link rel="stylesheet" type="text/css" href="extensions/automatic/deck.automatic.css">
 
   <!-- Style theme. More available in /themes/style/ or create your own. -->
   <link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">
@@ -72,6 +73,7 @@
     </form>
 
     <!-- End extension snippets. -->
+    <div class='deck-automatic-link' title="Play/Pause">Play/Pause</div>
   </div>
 
 <!-- Required JS files. -->
@@ -84,10 +86,19 @@
 <script src="extensions/status/deck.status.js"></script>
 <script src="extensions/navigation/deck.navigation.js"></script>
 <script src="extensions/scale/deck.scale.js"></script>
+<script src="extensions/automatic/deck.automatic.js"></script>
 
 <!-- Initialize the deck. You can put this in an external file if desired. -->
 <script>
   $(function() {
+    $.extend(true, $.deck.defaults, {
+      // other options (core or extensions)
+      automatic: {
+        startRunning: false,    // true or false
+        cycle: false,           // true or false
+        slideDuration: 15000 // duration in milliseconds
+      }
+    }); 
     $.deck('.slide');
   });
 </script>
