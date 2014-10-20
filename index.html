@@ -1,108 +1,159 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=1024, user-scalable=no">
+<!doctype html>
+<html lang="en">
 
-  <title>Your deck.js Presentation</title>
+	<head>
+		<meta charset="utf-8">
 
-  <!-- Required stylesheet -->
-  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+		<title>It's A Trap - Alert Design</title>
 
-  <!-- Extension CSS files go here. Remove or add as needed. -->
-  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
-  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
-  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
-  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
-  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
-  <link rel="stylesheet" type="text/css" href="extensions/automatic/deck.automatic.css">
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
 
-  <!-- Style theme. More available in /themes/style/ or create your own. -->
-  <!--<link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">-->
-  <!--<link rel="stylesheet" media="screen" href="themes/style/neon.css">-->
-  <link rel="stylesheet" media="screen" href="themes/style/swiss.css">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
-  <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <!-- Basic black and white print styles -->
-  <link rel="stylesheet" media="print" href="core/print.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
 
-  <!-- Required Modernizr file -->
-  <script src="modernizr.custom.js"></script>
-</head>
-<body>
-  <div class="deck-container">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-    <!-- Begin slides. Just make elements with a class of slide. -->
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
 
-    <section class="slide">
-      <h1>Slide</h1>
-      <div class='deck-automatic-link' title="Play/Pause">Play/Pause</div>
-    </section>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
 
-    <section class="slide">
-      <h1>Content</h1>
-    </section>
+	<body>
 
-    <section class="slide">
-      <h1>Here</h1>
-    </section>
+		<div class="reveal">
 
-    <!-- End slides. -->
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section class="intro">
+          <h1>It's A Trap!</h1>
+          <h3>Alert Design for Admiral Ackbar</h3>
+          <p><br><br><br>Tom Dyer</p>
+          <p>Systems Engineer - L.I.V.E. - Solium</p>
+          <p><a href="http://www.tomdyer.ca">http://tomdyer.ca</a> / <a href="https://twitter.com/thomaswsdyer">@thomaswsdyer</a></p>
+          <p><small><br>Powered by <a href="https://github.com/hakimel/reveal.js">reveal.js</a></small></p>
+        </section>
+        <section>
+          <h2>Admiral Ackbar</h2>
+          <img src="http://img1.wikia.nocookie.net/__cb20131002154400/ayakashi-ghost-guild/images/9/95/Admiral-ackbar.jpg">
+        </section>
+        <section>
+          <h2>Admiral Ackbar</h2>
+          <p><br>Solium's Monitoring and Alerting System</p>
+          <p><br></p>
+          <ul>
+            <li>Sensu</li>
+            <li>Custom and Community Plugins</li>
+            <li>Primarily looks at application behaviour</li>
+            <li>Used by LIVE, PSG and Rec</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Monitoring Behaviour</h2>
+          <p>Nagios watches the infrastructure.</p>
+          <p><br>Admiral Ackbar looks at behaviour:</p>
+          <ul>
+            <li>Are scheduled jobs running?</li>
+            <li>WebLogic timers</li>
+            <li>Users can login?</li>
+            <li>Data integrity checks</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Slide 5</h2>
+        </section>
+        <section>
+          <h2>Slide 6</h2>
+        </section>
+        <section>
+          <h2>Slide 7</h2>
+        </section>
+        <section>
+          <h2>Slide 8</h2>
+        </section>
+        <section>
+          <h2>Slide 9</h2>
+        </section>
+        <section>
+          <h2>Slide 10</h2>
+        </section>
+        <section>
+          <h2>Slide 11</h2>
+        </section>
+        <section>
+          <h2>Slide 12</h2>
+        </section>
+        <section>
+          <h2>Slide 13</h2>
+        </section>
+        <section>
+          <h2>Slide 14</h2>
+        </section>
+        <section>
+          <h2>Slide 15</h2>
+        </section>
+        <section>
+          <h2>Slide 16</h2>
+        </section>
+        <section>
+          <h2>Slide 17</h2>
+        </section>
+        <section>
+          <h2>Slide 18</h2>
+        </section>
+        <section>
+          <h2>Slide 19</h2>
+        </section>
+        <section>
+          <h2>Thank You!</h2>
+          <p>Questions?</h2>
+        </section>
+			</div> <!-- class="slides" -->
+    </div> <!-- class="reveal" -->
 
-    <!-- Begin extension snippets. Add or remove as needed. -->
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
 
-    <!-- deck.navigation snippet -->
-    <div aria-role="navigation">
-      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
-      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
-    </div>
+		<script>
 
-    <!-- deck.status snippet -->
-    <p class="deck-status" aria-role="status">
-      <span class="deck-status-current"></span>
-      /
-      <span class="deck-status-total"></span>
-    </p>
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: false,
+				center: true,
+        autoSlide: 15000,
+        slideNumber: true,
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
-    <!-- deck.goto snippet -->
-    <form action="." method="get" class="goto-form">
-      <label for="goto-slide">Go to slide:</label>
-      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
-      <datalist id="goto-datalist"></datalist>
-      <input type="submit" value="Go">
-    </form>
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
 
-    <!-- End extension snippets. -->
-  </div>
+		</script>
 
-<!-- Required JS files. -->
-<script src="jquery.min.js"></script>
-<script src="core/deck.core.js"></script>
-
-<!-- Extension JS files. Add or remove as needed. -->
-<script src="extensions/menu/deck.menu.js"></script>
-<script src="extensions/goto/deck.goto.js"></script>
-<script src="extensions/status/deck.status.js"></script>
-<script src="extensions/navigation/deck.navigation.js"></script>
-<script src="extensions/scale/deck.scale.js"></script>
-<script src="extensions/automatic/deck.automatic.js"></script>
-
-<!-- Initialize the deck. You can put this in an external file if desired. -->
-<script>
-  $(function() {
-    $.extend(true, $.deck.defaults, {
-      // other options (core or extensions)
-      automatic: {
-        startRunning: false,    // true or false
-        cycle: false,           // true or false
-        slideDuration: 15000 // duration in milliseconds
-      }
-    }); 
-    $.deck('.slide');
-  });
-</script>
-</body>
+	</body>
 </html>
