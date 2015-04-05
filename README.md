@@ -13,7 +13,7 @@ This presentation is an IGNITE talk. There are 20 slides that auto-advance every
 
 ### Viewing
 
-Checkout [www.tomdyer.ca/ItsATrap](http://www.tomdyer.ca/ItsATrap) to view this presentation.
+Checkout [thomaswsdyer.github.io/ItsATrap](http://thomaswsdyer.github.io/ItsATrap) to view this presentation.
 
 ### Thanks
 
